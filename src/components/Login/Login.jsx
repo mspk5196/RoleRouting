@@ -50,6 +50,10 @@ export default function Login() {
                 <input type="text" placeholder="USER_ID" onChange={(e) => setUserid(e.target.value)} />
                 <br />
                 <button type="submit">Login</button>
+
+                <p>sample.admin@gmail.com-2024AD101</p>
+                <p>sample.student@gmail.com-2024ST101</p>
+                <p>sample.faculty@gmail.com-2024FA101</p>
             </form>
         </div>
     )
